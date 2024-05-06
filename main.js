@@ -4,7 +4,7 @@ const color = prompt('Qual è il tuo colore preferito?');
 const firstNumber = prompt('Scegli un numero');
 const secondNumber = prompt('Scegli un secondo numero');
 
-const output = `La tua password è ${firstName}${lastName}${color}${firstNumber / secondNumber}`
+const output = `${firstName}${lastName}${color}${firstNumber / secondNumber}`
 
 console.log(output);
 
